@@ -9,6 +9,7 @@ public class Main {
         lst.addBack(3);
         lst.addBack(4);
         lst.printAll();
+
         System.out.println();
         System.out.println("Печать в обратном порядке:");
 
@@ -17,9 +18,11 @@ public class Main {
         lst.printAll();
         System.out.println();
 
+
         System.out.println("добавление всех значений массива в конец списка:");
         lst.addalltoBack(new int[]{5, 6,7,8});
         System.out.println();
+
 
 
 
